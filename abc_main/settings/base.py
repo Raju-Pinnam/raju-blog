@@ -12,19 +12,19 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 import os
 
+from decouple import config
+from dj_database_url import parse as dburl
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+SECRET_KEY = config('SECRET_KEY')
+
+# DEBUG = False
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'h#sxyeha4l@y0&i_kz%ds0yh=!m19w5u#rioa9lii_oa%$3d=t'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
 
 # Application definition
 SITE_ID = 1
@@ -82,19 +82,22 @@ WSGI_APPLICATION = 'abc_main.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'blog_db.sqlite3'),
-    # }
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'new_start_blog_packt',
-        'USER': 'postgres',
-        'PASSWORD': 'Rajkumar35*',
-    }
-}
+# DATABASES = {
+#     # 'default': {
+#     #     'ENGINE': 'django.db.backends.sqlite3',
+#     #     'NAME': os.path.join(BASE_DIR, 'blog_db.sqlite3'),
+#     # }
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'new_start_blog_packt',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Rajkumar35*',
+#     }
+# }
 
+default_dburl = 'postgres://postgres:Rajkumar35*@localhost/new_start_blog_packt'
+DATABASES = {'default': config('DATABASE_URL', default=default_dburl, cast=dburl), }
+DATABASES['default']['CONN_MAX_AGE'] = 600
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
@@ -132,7 +135,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'project-static', 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_files')
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'project-static', 'media')
 
 EMAIL_HOST = 'smtp.gmail.com'

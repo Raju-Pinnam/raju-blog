@@ -1,0 +1,389 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$YVY0lXpuBss9$f4FZjLVzS2+NdNO+48BLd2v8ZeLB09WwQpi6Vq1AHuA=",
+        "last_login": "2021-01-20T02:27:41.051Z",
+        "is_superuser": true,
+        "username": "padmaraju",
+        "first_name": "",
+        "last_name": "",
+        "email": "pinnampadmaraju@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-01-03T09:24:21.023Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "taggit",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "taggit",
+        "model": "taggeditem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "blog",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "blog",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r4ik1dbebw6g0wrts50m2b6qt7cvz0r1",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-yR9Kes5g7a7XOIAcKU4qxN0hUgpo38y8l8iwrS1vg5c8FXEWWpx-NwR6cN9BuUO_zZLmvi4Tyl2RBx3yOhd-Xg7376DBaN9a6aq81r46G5114GqgYDDWAMQFk7cGKhubkLxPibHaEpQiYiyJI4j3B9zkOJo:1l23Dh:pUXyCM23YvUH7rUVbFBay5qhSq_R4v-x67dMG-vmU2c",
+        "expire_date": "2021-02-03T02:27:41.110Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "r56to5jqyip4daz9fq92i9gdpe4nhvyv",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGln-yR9Kes5g7a7XOIAcKU4qxN0hUgpo38y8l8iwrS1vg5c8FXEWWpx-NwR6cN9BuUO_zZLmvi4Tyl2RBx3yOhd-Xg7376DBaN9a6aq81r46G5114GqgYDDWAMQFk7cGKhubkLxPibHaEpQiYiyJI4j3B9zkOJo:1kwdcu:Ep2jXHdtVuiBfZs1EFwsRdpOdfwv1SqF1CcezuW5dig",
+        "expire_date": "2021-01-19T04:07:20.864Z"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+        "name": "comics",
+        "slug": "comics"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+        "name": "dc",
+        "slug": "dc"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+        "name": "flowers",
+        "slug": "flowers"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+        "name": "avengers",
+        "slug": "avengers"
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 1,
+    "fields": {
+        "tag": 1,
+        "content_type": 9,
+        "object_id": 9
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 2,
+    "fields": {
+        "tag": 2,
+        "content_type": 9,
+        "object_id": 9
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 3,
+    "fields": {
+        "tag": 3,
+        "content_type": 9,
+        "object_id": 4
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 4,
+    "fields": {
+        "tag": 1,
+        "content_type": 9,
+        "object_id": 7
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 5,
+    "fields": {
+        "tag": 2,
+        "content_type": 9,
+        "object_id": 7
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 6,
+    "fields": {
+        "tag": 4,
+        "content_type": 9,
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 7,
+    "fields": {
+        "tag": 1,
+        "content_type": 9,
+        "object_id": 6
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 8,
+    "fields": {
+        "tag": 4,
+        "content_type": 9,
+        "object_id": 6
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "What is Django?",
+        "slug": "what-django",
+        "author": 1,
+        "body": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It's free and open source.",
+        "publish": "2021-01-03T09:37:36Z",
+        "created": "2021-01-03T09:37:54.091Z",
+        "updated": "2021-01-03T12:12:47.801Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Another Post",
+        "slug": "another-post",
+        "author": 1,
+        "body": "Body Of the another post",
+        "publish": "2021-01-03T10:08:40.439Z",
+        "created": "2021-01-03T10:08:54.159Z",
+        "updated": "2021-01-03T12:12:47.685Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "More Post",
+        "slug": "one-more-post",
+        "author": 1,
+        "body": "Body Of the one more post",
+        "publish": "2021-01-03T10:10:08.942Z",
+        "created": "2021-01-03T10:10:14.919Z",
+        "updated": "2021-01-03T12:12:47.552Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "roses are beauty",
+        "slug": "roses-are-beauty",
+        "author": 1,
+        "body": "A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears.[1] There are over three hundred species and tens of thousands of cultivars.[1] They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.[1] Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds.[1] Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa.[1] Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies.[1] Rose plants range in size from compact, miniature roses, to climbers that can reach seven meters in height.[1] Different species hybridize easily, and this has been used in the development of the wide range of garden roses. comics",
+        "publish": "2021-01-03T12:07:21Z",
+        "created": "2021-01-03T12:08:02.608Z",
+        "updated": "2021-01-05T05:26:36.355Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+        "title": "The avengers",
+        "slug": "avengers",
+        "author": 1,
+        "body": "Marvel's The Avengers[6] (classified under the name Marvel Avengers Assemble in the United Kingdom and Ireland[3][7]), or simply The Avengers, is a 2012 American superhero film based on the Marvel Comics superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures,[N 1] it is the sixth film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, and Jeremy Renner as the Avengers, alongside Tom Hiddleston, Clark Gregg, Cobie Smulders, Stellan Skarsgrd, and Samuel L. Jackson. In the film, Nick Fury and the spy agency S.H.I.E.L.D. recruit Tony Stark, Steve Rogers, Bruce Banner, and Thor to form a team capable of stopping Thor's brother Loki from subjugating Earth.\r\n\r\nThe film's development began when Marvel Studios received a loan from Merrill Lynch in April 2005. After the success of the film Iron Man in May 2008, Marvel announced that The Avengers would be released in July 2011 and would bring together Tony Stark (Downey), Steve Rogers (Evans), Bruce Banner (Ruffalo), and Thor (Hemsworth) from Marvel's previous films. With the signing of Johansson as Natasha Romanoff in March 2009, the film was pushed back for a 2012 release. Whedon was brought on board in April 2010 and rewrote the original screenplay by Zak Penn. Production began in April 2011 in Albuquerque, New Mexico, before moving to Cleveland, Ohio in August and New York City in September. The film has more than 2,200 visual effects shots.\r\n\r\nThe Avengers premiered in Los Angeles on April 11, 2012, and was released in the United States on May 4, as the last film of Phase One of the MCU. The film received praise for Whedon's direction and screenplay, visual effects, action sequences, acting, and musical score, and garnered numerous awards and nominations including Academy Award and BAFTA nominations for achievements in visual effects. The film grossed over $1.5 billion worldwide, setting numerous box office records and becoming the third-highest-grossing film of all time and the highest-grossing film of 2012, as well as the first Marvel production to generate $1 billion in ticket sales. In 2017, The Avengers was featured as one of the 100 greatest films of all time in an Empire magazine poll. Three sequels have been released: Avengers: Age of Ultron (2015), Avengers: Infinity War (2018), and Avengers: Endgame (2019).",
+        "publish": "2021-01-03T12:08:02Z",
+        "created": "2021-01-03T12:08:47.591Z",
+        "updated": "2021-01-20T02:28:25.771Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "title": "marver defenders",
+        "slug": "marver-defenders",
+        "author": 1,
+        "body": "Marvel's The Defenders is an American television miniseries created by Douglas Petrie and Marco Ramirez for the streaming service Netflix, based on the Marvel Comics characters Daredevil, Jessica Jones, Luke Cage, and Iron Fist, who form the eponymous superhero team. It is set in the Marvel Cinematic Universe (MCU) and acknowledges the continuity of the franchise's films. The miniseries is a crossover event for several interconnected series from Marvel and Netflix. It was produced by Marvel Television in association with ABC Studios, Nine and a Half Fingers, Inc., and Goddard Textiles, with Ramirez serving as showrunner.\r\n\r\nThe series stars Charlie Cox as Matt Murdock / Daredevil, Krysten Ritter as Jessica Jones, Mike Colter as Luke Cage, and Finn Jones as Danny Rand / Iron Fist, all reprising their roles from their individual series. It also stars Eka Darville, Elden Henson, Jessica Henwick, Simone Missick, Ramlodie Yung, Rosario Dawson, and Scott Glenn, all also returning from previous series, as well as Sigourney Weaver. Development began in late 2013, with Cox the first actor cast in May 2014. Petrie and Ramirez joined as showrunners in April, after doing so for the second season of Daredevil. Petrie left with the start of filming, which took place in New York City from October 2016 to March 2017. Cinematography and design work established the different color palettes from the characters' individual series, and combined them as the team is formed.\r\n\r\nThe Defenders premiered in New York on July 31, 2017, with all eight episodes released on Netflix on August 18. Critics were mostly positive about the crossover, highlighting the dynamics between the different Defenders as well as Weaver's performance, but were generally disappointed with the overall story, pacing, and the use of the Hand as villains. Third-party analysis indicated that the miniseries was the least-viewed Marvel Netflix series and had the largest week-over-week drop in viewership of them all, though it was the third-most \"Binge Raced\" series globally at the time of its release according to Netflix.",
+        "publish": "2021-01-03T12:09:12Z",
+        "created": "2021-01-03T12:09:26.650Z",
+        "updated": "2021-01-20T02:29:11.079Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+        "title": "Dc krypton comic",
+        "slug": "dc-krypton",
+        "author": 1,
+        "body": "Krypton is an American television series developed by David S. Goyer for Syfy. Focusing on Seg-El (Cameron Cuffe), the grandfather of DC Comics superhero Kal-El/Superman, the series is set approximately 200 years before the birth of Superman and takes place on the eponymous fictional planet. Krypton premiered on March 21, 2018. Its first season consists of ten episodes. In May 2018, Syfy renewed Krypton for a second season of ten episodes, which premiered on June 12, 2019. In August 2019, Syfy canceled the series after two seasons.",
+        "publish": "2021-01-03T12:09:27Z",
+        "created": "2021-01-03T12:10:19.049Z",
+        "updated": "2021-01-05T05:29:59.190Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 8,
+    "fields": {
+        "title": "Watchmen (TV series)",
+        "slug": "watchmen-tv-series",
+        "author": 1,
+        "body": "Watchmen is an American dystopian superhero drama limited television series based on the 1986 DC Comics series of the same title, created by Alan Moore and Dave Gibbons. The TV series was created for HBO by Damon Lindelof, who also served as an executive producer and writer. Its ensemble cast includes Regina King, Don Johnson, Tim Blake Nelson, Yahya Abdul-Mateen II, Andrew Howard, Jacob Ming-Trent, Tom Mison, Sara Vickers, Dylan Schombing, Louis Gossett Jr. and Jeremy Irons, with Jean Smart and Hong Chau joining the cast in later episodes.\r\n\r\nLindelof likened the television series to a \"remix\" of the original comic series. While the series is technically a sequel that takes place 34 years after the events of the comics within the same alternate reality, Lindelof wanted to introduce new characters and conflicts which created a new story within the Watchmen continuity, rather than creating a reboot. The series focuses on events surrounding racist violence in Tulsa, Oklahoma, in 2019. A white supremacist group called the Seventh Kavalry has taken up arms against the Tulsa Police Department because of perceived racial injustices, causing the police to conceal their identities with masks to prevent the Seventh Kavalry from targeting them in their homes following the \"White Night\". Angela Abar (King), a detective known as Sister Night, investigates the murder of her friend and the chief of the police, Judd Crawford (Johnson), and discovers secrets regarding the situations around vigilantism.\r\n\r\nThe series, originally promoted by HBO as an ongoing drama series, premiered on October 20, 2019, before concluding its nine-episode run on December 15. Lindelof left his role as showrunner after the first season, stating that he had completed his intended story. HBO subsequently confirmed there are no further plans for the show to continue without Lindelof returning in some capacity, and reclassified the work as a limited series with possible future installments.\r\n\r\nWatchmen received widespread critical acclaim for its performances, writing, visuals, score, and expansion of the source material, as well as commendation for highlighting the oft-forgotten 1921 Tulsa race massacre, which became more poignant in the wake of the 2020 George Floyd protests. The series received several awards, including 26 Primetime Emmy Award nominations and 11 wins, including Best Limited Series, King for Best Actress for a Limited Series, and Abdul-Mateen for Best Supporting Actor in a Limited Series; the most for any show in 2020.",
+        "publish": "2021-01-03T12:10:19Z",
+        "created": "2021-01-03T12:10:52.665Z",
+        "updated": "2021-01-03T12:12:46.942Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 9,
+    "fields": {
+        "title": "Arrow",
+        "slug": "arrow",
+        "author": 1,
+        "body": "A follow up to the original digital title, Arrow: Season 2.5, is written by Guggenheim and Keto Shimizu, one of the show's executive story editors and writers, with art by Joe Bennett and Jack Jadson. Arrow 2.5 is intended to tell one continuous story across two arcs, that fits within the television narrative. Guggenheim stated, \"We've tried to put in all the elements that people like about the show ... We're going to see what's happened to Detective Lance after he collapsed in the season [two] finale. A good chunk of the burning questions left over will get answered in the tie-in comic. Particularly towards the latter half of the series, we're going to start introducing characters [in the comic] who you'll see in Season 3 ... before they show up on TV.\"[204] On the comic's relationship to season three of the show, Guggenheim said, \"Season three is designed to stand on its own feet without requiring anyone to do any outside reading. But what the comic book will give is a deeper appreciation for some of the moments [in the show] and a more complete narrative experience. If you want to go deeper into the story, that's what Season 2.5 is for.\" Shimizu added that the comic also allows the writers to  comics\"accomplish things on the page that are nearly impossible to do with our production schedule and our budget\", including bigger action sequences, as well as visits to locations such as Kahndaq that cannot be recreated on the show. Additionally, the series has one to two pages each issue dedicated to the Suicide Squad, leading up to their own issue later in the run.[205] The character Caleb Green, who has ties to Robert Queen, was created specifically for the comic.[206] Guggenheim said \"The goal is to end Season 2.5 basically five minutes before Season 3 begins.\"[207] The comic launched digitally biweekly on September 1, 2014, with its first physical release featuring a collection of the digital releases  dc releasing on October 8.[204] The series featured 24 digital issues, which constituted 12 physical issues",
+        "publish": "2021-01-03T12:10:53Z",
+        "created": "2021-01-03T12:11:34.216Z",
+        "updated": "2021-01-05T05:25:56.220Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 10,
+    "fields": {
+        "title": "Blood Rush",
+        "slug": "blood-rush",
+        "author": 1,
+        "body": "On November 6, 2013, a six-episode series of shorts, titled Blood Rush, premiered alongside the broadcast of the show, as well as online. The series, which features product placement for products of its sponsor, Bose, was shot on location in Vancouver, similarly to the main show. The miniseries features Emily Bett Rickards, Colton Haynes and Paul Blackthorne reprising their roles of Felicity Smoak, Roy Harper and Quentin Lance, respectively.[210]\r\n\r\nThe episodes set during the course of the second season of the television series, show Roy coming to Queen Consolidated to have a meeting with Oliver. As he is out, Felicity tells Roy to go wait in the lobby.[211] As Roy leaves, Officer Lance calls Felicity, telling her that the blood sample the Starling City police found on the vigilante, which Felicity destroyed, has resurfaced. Felicity then calls Roy, using Oliver's voice encoder, asking him to break into the lab to retrieve the sample.[212] Felicity guides Roy through the lab, where he is able to recover the sample. As Roy is leaving, doctors enter the room, seemingly trapping him.[213] He notifies Felicity, who then hacks into the building's PA system, and issues an evacuation notice, giving Roy a chance to escape.[214] Roy gets out of the room before it enters into lock down, and is able to avoid two guards with the help of Felicity and exit the lab.[215] Roy returns to Queen Consolidated, and Felicity offers to mail the acquired sample for Roy as he goes in to meet with Oliver.[216]",
+        "publish": "2021-01-03T12:11:40Z",
+        "created": "2021-01-03T12:12:02.556Z",
+        "updated": "2021-01-03T12:12:46.671Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+        "post": 10,
+        "name": "Padmaraju Pinnam",
+        "email": "enquiry@giet.edu",
+        "body": "nice try",
+        "created": "2021-01-03T15:54:22.211Z",
+        "updated": "2021-01-03T15:54:22.211Z",
+        "active": true
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+}
+]
