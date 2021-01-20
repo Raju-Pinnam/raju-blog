@@ -4,6 +4,7 @@ from django.conf import settings as django_settings
 from django.conf.urls.static import static
 from django.contrib.sitemaps.views import sitemap
 from blog.sitemaps import PostSitemap
+from blog.views import post_list
 
 sitemaps = {
     'posts': PostSitemap
@@ -14,6 +15,7 @@ urlpatterns = [
     path('blog/', include('blog.urls', namespace='blog')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
          name='django.contrib.sitemaps.views.sitemap'),
+    path('', post_list, name='main_post'),
 ]
 
 if django_settings.DEBUG:
