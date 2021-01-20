@@ -1,4 +1,3 @@
+ALLOWED_HOSTS = ['raju-blog.herokuapp.com']
 
-ALLOWED_HOSTS = []
-
-DEBUG = True
+DEBUG = False
