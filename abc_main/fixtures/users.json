@@ -1,0 +1,20 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$YVY0lXpuBss9$f4FZjLVzS2+NdNO+48BLd2v8ZeLB09WwQpi6Vq1AHuA=",
+        "last_login": "2021-01-03T09:24:57.269Z",
+        "is_superuser": true,
+        "username": "padmaraju",
+        "first_name": "",
+        "last_name": "",
+        "email": "pinnampadmaraju@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-01-03T09:24:21.023Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
